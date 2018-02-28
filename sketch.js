@@ -3,6 +3,7 @@ function setup() {
 }
 
 function draw() {
+  noStroke();
   if (mouseIsPressed) {
     fill(0);
   } else {

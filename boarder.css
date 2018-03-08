@@ -1,5 +1,80 @@
-h1 {
-  border : 10px solid powderblue;
-  padding : 30px;
-  margin: 50px;
+body {
+  padding : 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: darkgrey;
+  background: #f3f3f3;
+}
+
+.container{
+  max-width: 960px;
+  width: 96%;
+  margin: auto;
+}
+
+/* -------------HEADER----------------*/
+header{
+  background: #fff;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+}
+
+nav {
+  float: right;
+  line-height: 70px;
+  font-weight: bolder;
+}
+
+nav li{
+  display: inline-block;
+  padding: 5px 20px;
+  margin-left: 10px;
+  background: #f3f3f3;
+  line-height: normal;
+}
+
+/* -------------------CONTENT----------------*/
+
+.content h1 {
+  color: white;
+  background: #ff4719;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content article {
+  float: left;
+  width: 600px;
+}
+/*
+.content h2 {
+  float: right;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+}
+*/
+.content ul {
+  float: right;
+  width: 250px;
+  background: #338989;
+  padding: 20px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.content ul h2 {
+  color: white;
+  margin-top: 5px;
+}
+
+.content ul a {
+  color: white;
+  margin-bottom: 5px;
 }
